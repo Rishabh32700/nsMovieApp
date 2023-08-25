@@ -1,0 +1,21 @@
+.search{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    padding: 1rem;
+    width: 100ch;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: .9rem;
+    color: white;
+    font-weight: 600;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0) ;
+}

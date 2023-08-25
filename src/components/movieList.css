@@ -1,0 +1,23 @@
+.moviesContainer{
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.movieList{
+    /* border: 2px solid green; */
+    width: 22%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    box-shadow: 3px 3px 10px black;
+}
+
+.movieList img{
+    height: 100%;
+}
